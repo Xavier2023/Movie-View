@@ -3,7 +3,7 @@ import './App.css';
 
 const App = () => {
   // State variables to manage the movie data, search input, and loading state
-  const [movieArray, setMovieArray] = useState(); // Array to store fetched movie data
+  const [movieArray, setMovieArray] = useState([]); // Array to store fetched movie data
   const [searchValue, setSearchValue] = useState({
     movieSearch: '', // Object to store the current search value
   });
